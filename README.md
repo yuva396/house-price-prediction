@@ -1,56 +1,53 @@
 
 # House Price Prediction
 
-## Overview
-This project aims to predict house prices using machine learning techniques. The model takes various features such as location, size, number of bedrooms, and other relevant factors to estimate the house price accurately.
+This repository contains a machine learning project for predicting house prices based on various features. The project is implemented in a Jupyter Notebook and utilizes data science libraries for data preprocessing, model training, and evaluation.
 
-## Requirements
-To run this project, you need the following dependencies installed:
+# Features
 
-- Python 3.x
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
+Data preprocessing and feature engineering
 
-You can install these dependencies using the following command:
+Exploratory data analysis (EDA)
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+Machine learning model training and evaluation
+
+Visualization of results
 
 ## Installation
+To set up the project, follow these steps:
 
-1. Clone the repository or download the project files.
+```bash
+git clone https://github.com/your-username/house-price-prediction.git
+```
+Change the directory
+```bash
+cd house-price-prediction
+```
+Install requirements 
+```bash
+pip install -r requirements.txt
+```
 
-    To clone the repository, run the following command:
-    ```bash
-    git clone <repository_url>
-    ```
+ # Dependencies
 
-    Alternatively, you can download the project files by clicking on the **Download ZIP** button on GitHub.
+Ensure you have the following dependencies installed:
 
-2. Navigate to the project directory:
-    ```bash
-    cd house-price-prediction
-    ```
+Python 3.x
 
-3. Install the required dependencies:
+Pandas
 
-    If you are using a `requirements.txt` file, you can install all dependencies in one go by running:
-    ```bash
-    pip install -r requirements.txt
-    ```
+NumPy
 
-    If you do not have a `requirements.txt` file, you can install the individual dependencies using `pip`:
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
-    ```
+Scikit-learn
 
-4. Once the dependencies are installed, open the Jupyter Notebook:
-    ```bash
-    jupyter notebook house_price_prediction.ipynb
-    ```
+Matplotlib
 
-    This will open the Jupyter Notebook in your browser, and you can start working with the code.
+Seaborn
+
+# Dataset
+
+The dataset used in this project contains information about various house features and their corresponding prices. Ensure you have the dataset in the appropriate directory before running the notebook.
+
+# Contributing
+
+Feel free to fork this repository and submit pull requests for improvements or additional features.
